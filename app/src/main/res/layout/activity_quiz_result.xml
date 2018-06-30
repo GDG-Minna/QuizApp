@@ -58,6 +58,7 @@
             android:layout_alignParentTop="true"
             android:layout_alignStart="@+id/button"
             android:layout_margin="8dp"
+            android:layout_alignLeft="@+id/button"
             android:text="ANSWERS" />
 
         <android.support.v7.widget.RecyclerView
@@ -67,6 +68,7 @@
             android:layout_alignStart="@+id/button"
             android:layout_centerVertical="true"
             android:layout_margin="8dp"
+            android:layout_alignLeft="@+id/button"
             tools:listitem="@layout/list_view_items" />
 
     </LinearLayout>

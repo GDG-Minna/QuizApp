@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,6 +22,8 @@
             android:layout_marginEnd="16dp"
             android:gravity="right"
             android:text="Question 4 of 10"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="16dp"
             android:textSize="18sp" />
 
         <TextView
@@ -32,6 +34,7 @@
             android:layout_alignParentTop="true"
             android:layout_margin="16dp"
             android:text="QUESTION"
+            android:layout_alignParentLeft="true"
             android:textSize="18sp" />
 
         <TextView
@@ -44,6 +47,7 @@
             android:layout_marginLeft="16dp"
             android:layout_marginRight="16dp"
             android:text="When you create android application the following folders are created in the package explorer in eclipse which are as follows"
+            android:layout_alignParentLeft="true"
             android:textSize="18sp" />
 
         <LinearLayout
@@ -175,6 +179,8 @@
         android:layout_alignParentStart="true"
         android:layout_marginBottom="16dp"
         android:layout_marginStart="26dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="26dp"
         android:text="PREV" />
 
     <Button
@@ -185,6 +191,8 @@
         android:layout_alignParentEnd="true"
         android:layout_alignTop="@+id/prev_btn"
         android:layout_marginEnd="26dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="26dp"
         android:text="NEXT" />
 
 </RelativeLayout>
